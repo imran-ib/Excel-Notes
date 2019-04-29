@@ -1,6 +1,14 @@
 # Excel Notes
 
+### Some use full shortcuts 
+
 - We can use the key `f12` to save as the file
+
+- To move around in deferent sheets `ctr +pgUp / ctr + pgDn`
+
+- To Apply `Format Painter` in multiple cells we can double click in formatted cell and click on the cell we want to format. Click `Esc` to cancel format 
+
+- `ctr + R` to fill Right and `ctr + D` to fill Down 
 
 - We can use text in cell `strikethrough scubscript superscript` in format cell options.
 
