@@ -49,3 +49,58 @@ We can Evaluate the formula and debug it
 
 `Formula -> Formula Auditing -> Evaluate Formula`
 
+## Rounding Functions 
+
+### Round 
+
+`=round(cellNumber, Digit how many you want)`
+
+### Round Up
+
+`=roundup(cellNumber, Digit how many you want)`
+
+### Round Down
+
+`=rounddown(cellNumber, Digit how many you want)`
+
+### Building a complex formula or merging two formulas 
+
+lets say we have a want to get average of numbers and same time we want to round those number 
+
+**Get Average** `=B2/C3` and **Round it** `round(cell,digit)`
+
+Now We Merge These two formulas Following `BODMAS` convention  in this way `=round((B2/C3),2)`
+
+## Sorting Data
+
+Apart from normal sorting we are aware of there is also custom sort
+
+ `Home -> Editing -> filter & Sort -> custom sort`  
+
+You can also access it by  `Data -> sort & filter`
+
+Here we can add level (cells) we want to sort we delete level 
+
+If the First column is header you can select `My data Has Headers` options to ignore that
+
+## Soft Return || wrap Text
+
+Key `alt + Enter`
+
+Or
+
+Select Cell You want to wrap text in `right clink -> formate cell -> alignment -> text control -> wrap text`
+
+## Charts 
+
+To insert chart 
+
+- Select cell / column you want to insert char for 
+
+  - you can select cell / column in parts by holding `alt` key
+
+- `insert -> charts -> remoended charts(optional)`
+
+- you copy chart in other sheet
+
+   

@@ -49,6 +49,12 @@ We can Evaluate the formula and debug it
 
 `Formula -> Formula Auditing -> Evaluate Formula`
 
+# Sorting
+
+apart from Normal Filter we can use some advance filters in `Numbrs Filters`
+
+Here we can Also use **Custom Filters**
+
 
 
 
