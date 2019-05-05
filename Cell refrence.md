@@ -52,3 +52,4 @@ But in this Reference we multiply by one Column. Always Refer to Specific Column
 ##  Relative and Absolute  cell reference (A$1)
 
 This is Same as above formula but it works with Rows  
+
