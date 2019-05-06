@@ -59,3 +59,22 @@ Get An Image and drop it on your sheet and work your way around it
 **To Make a image background ** 
 
 `format -> adjust -> color -> set background transparent ` click on any color you want to set transparent 
+
+## Importing excel sheet to existing excel sheet 
+
+`right click on the bottom sheet name and select move or copy `
+
+check create copy 
+
+select the sheet you want to copy to and click ok
+
+## Converting Time to Decimal
+
+Some times we need simple figure of hours and we may need to convert our time to decimal.
+
+- Get  hours `=HOUR(A1)`
+- Get Minutes `=MINUTE(B1)` 
+
+The Actual Formula is simple `=A1*24` (hours in a day ) if you don't get decimal change format from custom to general 
+
+*Start from lacture 12*
