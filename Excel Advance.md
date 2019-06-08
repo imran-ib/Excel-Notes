@@ -77,4 +77,72 @@ Some times we need simple figure of hours and we may need to convert our time to
 
 The Actual Formula is simple `=A1*24` (hours in a day ) if you don't get decimal change format from custom to general 
 
-*Start from lacture 12*
+# Conditional Foramtting
+
+- Select the cell you want to format conditionally 
+- `home -> styles -> conditional fotmatting`
+- select New rule
+- select the rule type
+  - in this example we will select use formula 
+- select the cell (use `f4` to select without any constant)
+- Format it 
+
+You can format cells with `format painter`
+
+# Logical Test (if statement)
+
+Will take three args, 
+
+condition , 
+
+if true , and 
+
+if false
+
+`=IF(A1=5,"YES","Nop")`
+
+# Text Strings With Formula
+
+We may want to merge string and numbers in same cell for example we want to get miles in cell and display`60 milse`
+
+we can use Concatenate formula to do just that 
+
+`=CONCATENATE(SUM(D31:J31), " Miles")`
+
+If we need to display text in different format for example we have `27` and we want to show `$27.00`
+
+we can set custom text formula 		`Text('L21',"$0.00")` OR `Text('L21',"dd mm yy")`  inside concatenate 
+
+
+
+# Protecting the the cell 
+
+`rightclick -> format cell -> protection  -> unchek the locked button`
+
+`Review -> changes -> protect sheet`
+
+# Vlookup
+
+Looks for the value in the left most column in the table.
+
+Works like search 
+
+Takes 4 arguments 
+
+- Lookup value
+- Array of columns where to look for
+- reference to the column where the value is populated
+- Boolean weather the match should be exact or related 
+
+`=VLOOKUP(A11,A2:B8,2,FALSE)`
+
+# Text To Column
+
+lets say we have an cell with full name and we want to split it into two columns one for first name and second for last name and original should be full name
+
+`Select the column -> data -> text to column -> Select Delimited -> next -> select pace -> next -> Destination cell for first name -> finish`
+
+# Copy row Text to Column 
+
+`select and copt text in row -> right click -> spacial paste -> transpose`
+
